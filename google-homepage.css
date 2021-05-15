@@ -31,46 +31,157 @@
 #mainMenuRight {
   position: absolute;
   right: 0;
+  margin-right: 164px;
+  margin-top: 15px;
+  font-size: 13px;
 }
 
 .material-icons.md-24 {
   font-size: 25px !important;
 }
 
-.mainMenu span {
-  margin-top: 500px !important;
+#Applogo {
+  position: absolute;
+  right: 0;
+  margin-right: 138px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.54);
 }
 
-/* #mainMenu {
-  margin: 10px;
-  width: 900px;
+#SignIn {
+  position: absolute;
+  right: 0;
+  border: none;
+  background: #307afc;
+  color: #fff;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 28px;
+  padding-right: 28px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  margin-right: 25px;
+  margin-top: 4px;
 }
 
-#mainMenu li {
-  display: block;
-  width: 58.5px;
-  margin-top: 12px;
+#SignIn:hover {
+  background-color: #4489ff;
+  color: white;
+}
+
+#GooglePic {
+  position: absolute;
+  height: auto;
+  width: auto;
+  max-width: 380px;
+  max-height: 380px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 15%;
+}
+
+#searchbar {
+  height: 45px;
+  width: 600px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 44%;
+  box-sizing: border-box;
+  border: 1px solid rgb(221, 221, 221);
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  background-position: 10px 10px;
+  padding-left: 40px;
+  background-color: rgb(255, 255, 255);
+}
+
+#searchbar:focus {
+  outline: none;
+}
+
+#underSearch {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+
+  top: 52%;
+}
+
+.searchbutton {
+  background-color: #f8f9fa;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px 10px 20px;
   font-size: 14px;
   font-family: Arial;
+  margin: 0 5px 0 5px;
+  cursor: pointer;
 }
 
-#mainMenu a {
-  display: block;
+#paragraph {
+  font-family: Arial;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 58%;
+}
+
+#paragraph a {
+  text-decoration: none;
+}
+
+.footer1 {
+  font-size: 14px;
+  font-family: Arial;
+  bottom: 2px;
+}
+
+.footer1 li {
+  display: inline;
+  list-style: none;
+  margin-right: 16px;
+  width: 100%;
+}
+
+.footer1 a {
   text-decoration: none;
   background-color: #fff;
   color: #222;
 }
 
-#mainMenu a:hover {
+.footer1 a:hover {
   text-decoration: underline;
 }
 
-#mainMenuLeft li {
+#footerLeft {
+  display: inline-block;
   position: absolute;
   left: 0;
 }
 
-#mainMenuRight li {
+#footerRight {
+  display: inline-block;
   position: absolute;
   right: 0;
-} */
+}
+
+#footerstuff {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  text-align: center;
+}
