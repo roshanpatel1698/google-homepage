@@ -157,8 +157,8 @@
 
 .footer1 a {
   text-decoration: none;
-  background-color: #fff;
-  color: #222;
+  background-color: #f2f2f2;
+  color: grey;
 }
 
 .footer1 a:hover {
@@ -184,4 +184,15 @@
   width: 100%;
   background-color: #f2f2f2;
   text-align: center;
+}
+
+#footerstuff p {
+  font-family: Arial;
+  font-size: 14px;
+  color: grey;
+}
+
+#footerstuff p:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
